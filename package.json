@@ -1,0 +1,26 @@
+{
+  "name": "copy-file-reference",
+  "displayName": "Copy File Reference",
+  "description": "Send selected code as @file#line-line reference to terminal (Claude Code syntax)",
+  "version": "0.0.1",
+  "publisher": "SophatSophana",
+  "repository": { "type": "git", "url": "https://github.com/phana25/copy-file-reference" },
+  "engines": { "vscode": "^1.75.0" },
+  "activationEvents": ["onStartupFinished"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copy-file-ref.sendToTerminal",
+        "title": "Send File Reference to Terminal"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "copy-file-ref.sendToTerminal",
+        "key": "cmd+k",
+        "when": "editorTextFocus && editorHasSelection"
+      }
+    ]
+  }
+}
