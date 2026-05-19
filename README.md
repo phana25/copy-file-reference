@@ -28,11 +28,13 @@ Download the `.vsix` file and run:
 
 ```bash
 # For VS Code
-"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" --install-extension copy-file-reference-0.0.1.vsix
+code --install-extension copy-file-reference-0.0.1.vsix
 
 # For Cursor
 cursor --install-extension copy-file-reference-0.0.1.vsix
 ```
+
+> **VS Code note:** If `code` is not in your PATH, run `Cmd+Shift+P` → **Shell Command: Install 'code' command in PATH** first.
 
 Then restart your editor.
 
