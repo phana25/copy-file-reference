@@ -4,9 +4,11 @@
   "description": "Send selected code as @file#line-line reference to terminal (Claude Code syntax)",
   "version": "0.0.1",
   "publisher": "SophatSophana",
+  "author": { "name": "Sophat Sophana" },
   "repository": { "type": "git", "url": "https://github.com/phana25/copy-file-reference" },
   "engines": { "vscode": "^1.75.0" },
   "activationEvents": ["onStartupFinished"],
+  "icon": "copy-file-ref-icon-no-background.png",
   "main": "./extension.js",
   "contributes": {
     "commands": [
