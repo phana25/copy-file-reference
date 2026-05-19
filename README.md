@@ -24,7 +24,14 @@ Claude Code will include those exact lines as context in the conversation.
 
 ## Installation
 
-Download the `.vsix` file and run:
+**1. Clone the repository**
+
+```bash
+git clone git@github.com:phana25/copy-file-reference.git
+cd copy-file-reference
+```
+
+**2. Install the extension**
 
 ```bash
 # For VS Code
@@ -36,7 +43,7 @@ cursor --install-extension copy-file-reference-0.0.1.vsix
 
 > **VS Code note:** If `code` is not in your PATH, run `Cmd+Shift+P` → **Shell Command: Install 'code' command in PATH** first.
 
-Then restart your editor.
+**3. Restart your editor**
 
 ## Keybinding
 
