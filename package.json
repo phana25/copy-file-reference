@@ -8,7 +8,7 @@
   "repository": { "type": "git", "url": "https://github.com/phana25/copy-file-reference" },
   "engines": { "vscode": "^1.75.0" },
   "activationEvents": ["onStartupFinished"],
-  "icon": "copy-file-ref-icon-no-background.png",
+  "icon": "icon.png",
   "main": "./extension.js",
   "contributes": {
     "commands": [
