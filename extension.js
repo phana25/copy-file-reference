@@ -23,7 +23,7 @@ function activate(context) {
     if (!terminal) {
       terminal = vscode.window.createTerminal();
     }
-    terminal.show(true);
+    terminal.show(false);
     terminal.sendText(ref, false); // false = no auto-execute
   });
 
